@@ -1,0 +1,256 @@
+/* Set the background color of the body */
+body {
+  background-color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+  font-family: 'Arimo', Arial, Helvetica, sans-serif;
+}
+
+/* Style for paragraph text */
+p {
+  text-indent: 0px;
+  color: #000000;
+}
+
+/* Style for specific paragraphs with the class "return" */
+p.return {
+  margin: 2em 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
+  border-width: 4px 0px 4px 0px;
+  border-color: #D3D3D3;
+  border-style: solid;
+}
+
+/* Style for h1 headings */
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  background-color: #FFFFFF;
+  margin: 1em 0px 1em 0px;
+  padding: 5px 0px 5px 0px;
+  border-width: 0px 0px 3px 0px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+h2 {
+  clear: both;
+  font-size: 1em;
+  font-weight: 600;
+  color: #222;
+  background-color: #f5f5f5;
+  margin: 2em 0 1em 0;
+  padding: 0.6em 1em;
+  border-left: 4px solid #7a0000; /* IU red accent */
+  border-radius: 4px;
+
+  display: flex;                  /* enables left-right layout */
+  justify-content: space-between; /* pushes text left, image right */
+  align-items: center;            /* vertically centers text and image */
+}
+
+.h2-icon {
+  height: 1.2em; /* matches roughly the text height */
+  width: auto;   /* keeps aspect ratio */
+}
+
+/* Style for h3 headings */
+h3 {
+  font-size: medium;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  padding: 2px 0px 2px 0em;
+}
+
+/* Style for images with the class "misc" */
+img.misc {
+  border-width: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+/* Style for div elements with the class "fullref" and their paragraph children */
+div.fullref p {
+  background-color: #3366CC;
+  border-width: 1px;
+  border-color: #3366CC;
+  border-style: solid;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+  padding-left: 1ex;
+  padding-right: 1ex;
+}
+
+/* Style for bold text within div elements with the class "fullref" */
+div.fullref b {
+  color: #3366CC;
+}
+
+/* Style for div elements with the class "return" and their paragraph children */
+div.return p {
+  border-width: 1px 0px 0px 0px;
+  border-color: #000000;
+  border-style: solid;
+  margin: 2em 0px 0px 0px;
+  padding: 1ex 0px 0px 0px;
+}
+
+/* Style for tables with the class "contentswrapper" */
+table.contentswrapper {
+  border: 0;
+  background-color: #FFFFFF;
+}
+
+/* Style for table cells with the class "contents" within tables with the class "contentswrapper" */
+table.contentswrapper td.contents {
+  background-color: #D3D3D3;
+  padding: 5px 1ex 5px 1ex;
+  border-width: 1px 1px 1px 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+/* Style for table cells with the class "image" within tables with the class "contentswrapper" */
+table.contentswrapper td.image {
+  padding: 5px 1ex 5px 5ex;
+}
+
+/* General style for all table cells */
+table.contents td {
+  padding: 1px 1px 1px 1px;
+  border-width: 0px 0px 0px 0px;
+}
+
+/* Style for table headers within tables with the class "contact" */
+table.contact th {
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  padding: 0px 3em 1ex 0px;
+}
+
+/* Style for table cells within tables with the class "contact" */
+table.contact td {
+  text-align: left;
+}
+
+/* Style for table cells and headers within tables with the class "publications" */
+table.publications td, table.publications th {
+  border-color: #D3D3D3;
+  border-style: solid
+}
+
+/* Style for table headers within tables with the class "publications" */
+table.publications th {
+  font-weight: bold;
+  color: #000000;
+  background-color: #CDD6FF;
+  padding: 2px 1ex 2px 1ex;
+  border-width: 1px 1px 1px 0px;
+}
+
+/* Additional style for table headers with the class "topcat" within tables with the class "publications" */
+table.publications th.topcat {
+  border-width: 1px 1px 1px 1px;
+}
+
+/* Additional style for table headers with the class "topdl" within tables with the class "publications" */
+table.publications th.topdl {
+  border-width: 1px 1px 1px 0px;
+}
+
+/* Additional style for table headers with the class "cat" within tables with the class "publications" */
+table.publications th.cat {
+  border-width: 0px 1px 1px 1px;
+}
+
+/* Additional style for table headers with the class "dl" within tables with the class "publications" */
+table.publications th.dl {
+  border-width: 0px 1px 1px 0px;
+}
+
+/* Style for table cells within tables with the class "publications" */
+table.publications td {
+  background-color: #F2F4F8;
+  padding: 2px 2px 2px 2px;
+  border-width: 0px 1px 1px 0px;
+}
+
+/* Additional style for table cells with the class "ref" within tables with the class "publications" */
+table.publications td.ref {
+  border-width: 0px 1px 1px 1px;
+}
+
+/* Additional style for table cells with the class "refmult" within tables with the class "publications" */
+table.publications td.refmult {
+  border-width: 0px 1px 0px 1px;
+}
+
+/* Additional style for table cells with the class "reftypeu" within tables with the class "publications" */
+table.publications td.reftypeu {
+  border-width: 0px 0px 0px 1px;
+}
+
+/* Additional style for table cells with the class "reftyped" within tables with the class "publications" */
+table.publications td.reftyped {
+  border-width: 0px 0px 1px 1px;
+}
+
+/* Additional style for table cells with the class "refveru" within tables with the class "publications" */
+table.publications td.refveru {
+  border-width: 1px 1px 1px 0px;
+}
+
+/* Additional style for table cells with the class "refverd" within tables with the class "publications" */
+table.publications td.refverd {
+  border-width: 0px 1px 1px 0px;
+}
+
+/* Additional style for table cells with the class "refpub" within tables with the class "publications" */
+table.publications td.refpub {
+  border-width: 0px 1px 1px 0px;
+  white-space: nowrap;
+}
+
+/* Additional style for table cells with the class "refpubu" within tables with the class "publications" */
+table.publications td.refpubu {
+  border-width: 1px 1px 1px 0px;
+  white-space: nowrap;
+}
+
+/* Additional style for table cells with the class "refpubd" within tables with the class "publications" */
+table.publications td.refpubd {
+  border-width: 0px 1px 1px 0px;
+  white-space: nowrap;
+}
+
+/* Additional style for table cells with the class "talku" within tables with the class "publications" */
+table.publications td.talku {
+  border-width: 0px 1px 0px 1px;
+}
+
+/* Additional style for table cells with the class "talkdl" within tables with the class "publications" */
+table.publications td.talkdl {
+  border-width: 0px 0px 1px 1px;
+}
+
+/* Additional style for table cells with the class "talkdr" within tables with the class "publications" */
+table.publications td.talkdr {
+  border-width: 0px 1px 1px 0px;
+}
+
+/* Style for links within tables with the class "publications" */
+table.publications a {
+  text-decoration: none;
+}
+
+/* General style for bold text */
+b {
+  color: #000000;
+}
